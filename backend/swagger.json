@@ -5,15 +5,17 @@
     "description": "Contacts API for a contact list",
     "version": "1.0.0"
   },
-  "host": "localhost:8080",
+  "host": "https://project1-0jqo.onrender.com/",
   "basePath": "/",
   "schemes": [
-    "http",
     "https"
   ],
   "paths": {
     "/": {
       "get": {
+        "tags": [
+          "Home"
+        ],
         "description": "",
         "responses": {
           "200": {
